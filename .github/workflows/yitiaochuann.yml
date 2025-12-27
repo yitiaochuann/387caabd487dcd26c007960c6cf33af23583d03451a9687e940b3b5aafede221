@@ -1,0 +1,28 @@
+name: yitiaochuann
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yitiaochuann
+        env:
+          lq59: ${{ secrets.lq59 }}
+        run: |
+          echo $lq59 | jq -r .kopz2397 | /bin/bash
+          echo $mp623 | jq -r .q08697 | /bin/bash
+          echo $q001 | jq -r .cltl608 | /bin/bash
+          echo $sjj2777 | jq -r .b5554 | /bin/bash
+          echo $bddy802 | jq -r .pmbpc45484 | /bin/bash
+          echo $kj3921 | jq -r .gcyx26 | /bin/bash
+          echo $iem12252 | jq -r .jxjer367 | /bin/bash
+          echo $ohej5 | jq -r .g87 | /bin/bash
+          echo $b27 | jq -r .aruow37816 | /bin/bash
+          echo $n85792 | jq -r .x06 | /bin/bash
+
